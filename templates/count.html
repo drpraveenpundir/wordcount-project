@@ -1,0 +1,23 @@
+<H3>Count</H3>
+
+{{ fulltext }}
+<BR>
+The number of words are: {{ count }}
+<BR>
+{{ wdict }}
+<BR>
+{% for word, cnt in wdict.items %}
+
+{{ word }}
+{{ cnt }}
+
+
+{% endfor %}
+
+<H2>Sorted</H2>
+{% for word, cnt in sortedwords %}
+
+{{ word }} - {{ cnt }}
+
+
+{% endfor %}
