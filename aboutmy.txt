@@ -118,3 +118,8 @@ python manage.py runserver
 GIT
 git init (in working directory)
 git add -A
+git status
+
+>> git config --global user.name "Your Name eg kush" >> Not working
+>> git config --global user.email "doctor.pundir@gmail.com" >> prior to commit works
+git commit -m "This is my first commit"
